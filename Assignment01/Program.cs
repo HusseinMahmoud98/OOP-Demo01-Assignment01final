@@ -20,7 +20,7 @@ namespace Assignment01
             P01.Y = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter the coordinates of the second point P02");
-            P02.X = double.Parse(Console.ReadLine());
+            P02.X = double.Parse(Console.ReadLine()); 
             P02.Y = double.Parse(Console.ReadLine());
 
             Console.WriteLine($"the disance between P01 and P02 is {Math.Sqrt(Math.Pow(P02.X - P01.X, 2) + Math.Pow(P02.Y - P01.Y, 2))}");  
